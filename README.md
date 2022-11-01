@@ -118,4 +118,12 @@ array.shift();
 * pop(): This method deletes the last element of the array.  
 ```
 array.pop();
-// this will delete the method function() presented in the array since this method is the last element of this array.
+// this will delete the method function() presented in the array 
+//since this method is the last element of this array.
+```
+*  unshift(): This method adds element to the front of the array.  
+*  push(): This method is used to add element at the end of the array.  
+*  splice(fromPos,noOfElementsToBeDeleted,newElementsToBeAddes): This method is used insert or delete element at a spcified position in the array.  
+
+   Example : [see here](https://www.w3schools.com/js/js_array_methods.asp). 
+
