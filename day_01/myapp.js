@@ -21,3 +21,5 @@ function makeCoffee( sugar, milk )
     
     return instructions;
 }
+
+console.log( makeCoffee(2, 20) );
