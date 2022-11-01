@@ -13,7 +13,7 @@
 * JavaScript is already running in your browser on your computer, on your tablet, and on your smart-phone.
 * JavaScript has it's own console where javascript commands can be written.These commands will be run by compiling JIT(Just in time) compiler and the output's will be returend in the human readable format.
 
-#### ==Primitive datatype==
+#### Primitive datatype
 JavaScript basic datatypes are:
 01. string : "abc", "name", etc.
 02. integer : 10, 100, 2000, etc.
@@ -31,3 +31,10 @@ blank = 10;
 // after reassignment value of 'blank' becomes 10 which is a integer value.
 const val = 10;
 // if we use 'const' type variable it's value can't be modified and always remains the same.
+
+#### Operator Precedence
+B O DM AS
+where B - bracket
+      O - power
+      DM - divison and multiplication (both have same precendence)
+      AS - addition and subtraction (both have same precendence)
