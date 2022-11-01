@@ -42,4 +42,4 @@ B - bracket
          AS - addition and subtraction (both have same precendence)  
          
 ### Adding JS file in HTML file
-We can add JS file in HTML in the <head> section or in the <body> section.But it is preferred to add JS file in the bottom of the <body> section because HTML files are loaded line by line and if our javascript file is large in size it'll hold up rendering.That's why it is preferred to add js files using 'script' tag at the bottom.
+We can add JS file in HTML in the <head> section or in the <body> section.But it is preferred to add JS file in the bottom of the <body> section because HTML files are loaded line by line and if our javascript file is large in size it'll hold up rendering.That's why it is preferred to add js files using 'script' tag at the bottom. Example: [see here](https://github.com/PritomKarmokar/JavaScript-Basics/blob/main/day_01/index.html)
