@@ -31,10 +31,11 @@ blank = 10;
 // after reassignment value of 'blank' becomes 10 which is a integer value.
 const val = 10;
 // if we use 'const' type variable it's value can't be modified and always remains the same.
+```
 
-#### Operator Precedence
+#### Operator Precedence 
 B O DM AS
-where B - bracket
-      O - power
-      DM - divison and multiplication (both have same precendence)
-      AS - addition and subtraction (both have same precendence)
+* where, B - bracket  
+         O - power  
+         DM - divison and multiplication (both have same precendence)  
+         AS - addition and subtraction (both have same precendence)  
