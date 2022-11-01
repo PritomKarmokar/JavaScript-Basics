@@ -35,7 +35,11 @@ const val = 10;
 
 #### Operator Precedence 
 B O DM AS
-* where, B - bracket  
+* where,  
+B - bracket  
          O - power  
          DM - divison and multiplication (both have same precendence)  
          AS - addition and subtraction (both have same precendence)  
+         
+### Adding JS file in HTML file
+We can add JS file in HTML in the <head> section or in the <body> section.But it is preferred to add JS file in the bottom of the <body> section because HTML files are loaded line by line and if our javascript file is large in size it'll hold up rendering.That's why it is preferred to add js files using 'script' tag at the bottom.
