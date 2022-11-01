@@ -11,3 +11,4 @@
 * "Java" and "JavaScript" both are completely different language having completely different syntax.
 * You don't have to get or download JavaScript.
 * JavaScript is already running in your browser on your computer, on your tablet, and on your smart-phone.
+⋅⋅⋅ JavaScript has it's own console where javascript commands can be written.These commands will be run by compiling JIT(Just in time) compiler and the output's will be returend in the human readable format.
