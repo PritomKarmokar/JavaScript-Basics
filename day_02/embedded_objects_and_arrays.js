@@ -21,8 +21,18 @@ var array = [
     100, 
     ["embed", 200], 
     {car: "ford"},
-    
+
     // We can also define a function in the array.
     // But we cannot define a name here like the aboce 'drive' method because here 'key' is a number.
     function() { return "drive"; }
 ];
+
+// Accessing objects
+
+console.log(car.engine.size)
+
+//Same can be accessed as below :
+console.log(car["engine"]["size"])
+
+// To access a method of an object we have to use as below:
+console.log( car.drive() );

@@ -105,10 +105,17 @@ var array = [
     {car: "ford"},
     
     // We can also define a function in the array.
-    // But we cannot define a name here like the aboce 'drive' method because here 'key' is a number.
+    // But we cannot define a name here like the above 'drive' method because here 'key' is a number.
     function() { return "drive"; }
 ];
 ```
-
-
-
+#### Prebuit Array methods
+* shift(): it doesn't take any values within the parenthesis and returns what it deleted. This method simply deletes the first element of the array. Example:
+```
+array.shift();
+"string"; // removes the first element of the array.
+```
+* pop(): This method deletes the last element of the array.  
+```
+array.pop();
+// this will delete the method function() presented in the array since this method is the last element of this array.
