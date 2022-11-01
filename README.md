@@ -11,7 +11,7 @@
 * "Java" and "JavaScript" both are completely different language having completely different syntax.
 * You don't have to get or download JavaScript.
 * JavaScript is already running in your browser on your computer, on your tablet, and on your smart-phone.
-* JavaScript has it's own console where javascript commands can be written.These commands will be run by compiling JIT(Just in time) compiler and the output's will be returned in the human readable format.
+* JavaScript has it's own console where javascript commands can be written.These commands will be run by compiling JIT(Just in time) compiler and the output's will be returend in the human readable format.
 
 #### Primitive datatype
 JavaScript basic datatypes are:
@@ -40,7 +40,7 @@ B - bracket
 O - power  
 DM - divison and multiplication (both have same precendence)  
 AS - addition and subtraction (both have same precendence)  
-
+         
 ### Adding JS file in HTML file
 We can add JS file in HTML in the <head> section or in the <body> section.But it is preferred to add JS file in the bottom of the <body> section because HTML files are loaded line by line and if our javascript file is large in size it'll hold up rendering.That's why it is preferred to add js files using 'script' tag at the bottom. Example: [see here](https://github.com/PritomKarmokar/JavaScript-Basics/blob/main/day_01/index.html)
 
@@ -62,13 +62,16 @@ Here, firstName, lastName, age, eyeColor are properties and fullName() is method
    We can access object properties in two ways:
 ```javascript
 objectName.propertyName 
+// person.firstName
 ```
    or  
 ```javascript
 objectName["propertyName"]
+// person["firstName"]
 ```
    We can access an object method with the following syntax:
 ```javascript
 objectName.methodName()
+// var name = person.fullName();
 ```  
 
