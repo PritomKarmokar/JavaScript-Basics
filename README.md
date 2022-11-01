@@ -45,7 +45,7 @@ AS - addition and subtraction (both have same precendence)
 We can add JS file in HTML in the <head> section or in the <body> section.But it is preferred to add JS file in the bottom of the <body> section because HTML files are loaded line by line and if our javascript file is large in size it'll hold up rendering.That's why it is preferred to add js files using 'script' tag at the bottom. Example: [see here](https://github.com/PritomKarmokar/JavaScript-Basics/blob/main/day_01/index.html)
 
 ## Day - 02
-* ++Objects++ : Objects are variables also. But objects can contain many values. Objects can have properties and methods.
+* Objects : Objects are variables also. But objects can contain many values. Objects can have properties and methods.
 ```javascript
 const person = {
     firstName : "John",
@@ -57,16 +57,17 @@ const person = {
     }
 };
 ```
-Here, firstName, lastName, age, eyeColor are properties and fullName() is method.  
-We can access object properties in two ways:
+Here, firstName, lastName, age, eyeColor are properties and fullName() is method.
+ 
+   We can access object properties in two ways:
 ```javascript
 objectName.propertyName 
 ```
-or  
+   or  
 ```javascript
 objectName["propertyName"]
 ```
-We can access an object method with the following syntax:
+   We can access an object method with the following syntax:
 ```javascript
 objectName.methodName()
 ```  
