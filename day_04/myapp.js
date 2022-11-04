@@ -24,3 +24,5 @@ var spanH1 = document.querySelectorAll('h1 span');
 var spanH2 = document.querySelectorAll('h1 span')[0]
 
 spanH2.innerHTML = "new text here!!";
+
+// Be careful when we're working with 'getElementsByClassName', 'getElementsByTagName', 'querySelectorAll()'
