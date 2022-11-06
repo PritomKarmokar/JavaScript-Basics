@@ -1,0 +1,127 @@
+:root {
+    --primary: #229f12;
+    --secondary: #5bd69a;
+    --dark: #042025;
+    --light: #fbfdfd;
+    --alert: #e63946;
+    --success: #0a4054;
+}
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, serif;
+    background-color: var(--light);
+}
+
+/* index.html css style */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:var(--primary);
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+}
+  
+.app-title {
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 5rem;
+    color: var(--primary);
+    text-shadow: 2px 2px 3px var(--secondary);
+    margin: 0 auto;
+}
+
+.login-section{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.login-section h1{
+    justify-content: center;
+}
+
+#login-form{
+    padding-top: 0.5rem;
+    display: flex;
+}
+
+#name-id{
+    flex: 1 1 0%;
+    padding: 1rem;
+    border-radius:  0.25rem;
+}
+
+#name-id::placeholder{
+    font-size: 18px;
+}
+
+#input-submit{
+    font-size: 18px;
+    flex: 1 1 0%;
+    padding: 0.5rem;
+    border-radius:  0.25rem;
+}
+
+#input-submit{
+    opacity: 0.8;
+}
+
+#input-submit:active{
+    opacity: 0.6;
+}
+
+
+/* index.html css style end */
+
+/* same as .log-in section */
+.todo-form{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+#task-form{
+    padding-top: 0.5rem;
+    display: flex;
+}
+
+#task-input{
+    flex: 1 1 0%;
+    padding: 0.6rem;
+    border-radius:  0.25rem;
+}
+#task-input::placeholder{
+    font-size: 18px;
+}
+
+.todo-form input[type=submit] {
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius:  0.25rem;
+    cursor: pointer;
+}
+
+#log-out-submit{
+    justify-content: center;
+}
+.linebreak { flex-basis: 200px; }
+
+.todolist-container {
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius:  0.25rem;
+    cursor: pointer;
+    gap: 14px;
+}
+
+.todo-title{
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius:  0.25rem;
+    cursor: pointer;
+   
+}
