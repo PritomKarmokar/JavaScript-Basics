@@ -26,9 +26,14 @@ function addTask( name , title)
     // console.log( obj.name );
     // console.log( obj.list );
 
-    obj.list.push(title);
+    if(title === ''){
+        alert('Taskfield cannot be empty.')
+    }
+    else {
+        obj.list.push(title);
 
-    localStorage.setItem( name, JSON.stringify(obj) );
+        localStorage.setItem( name, JSON.stringify(obj) );
+    }
 }
 
 
